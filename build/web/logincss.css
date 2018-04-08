@@ -1,0 +1,94 @@
+body
+{
+    color: black;
+    font-size: 20px;
+}
+#head1
+{
+    float: left;
+    font-family: "Open Sans","Segoe UI";
+    width: auto;  
+    font-weight: lighter;
+}
+#home
+{
+    float: left;
+    font-family: "Open Sans","Segoe UI";
+    width: auto;
+    font-weight: 300;
+    text-decoration: none;
+    font-size : 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#links
+{
+    float: right;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#link1
+{
+    margin-left: 220px;
+    text-decoration: none;
+    
+}
+#link2
+{
+    margin-left: 50px;
+    text-decoration: none;
+}
+#loginb
+{
+    width: 115px;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    border-color: black;
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+}
+#loginb:hover
+{
+    background-color: black;
+    color: green;
+    font-weight: 600;
+}
+#regb
+{
+    width: 140px;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    border-color: black;
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+}
+#regb:hover
+{
+    background-color: black;
+    color: green;
+    font-weight: 600;
+}
+#loginform
+{
+    background-image: url("facebook-avatar.jpg");
+    font-family: "Open Sans","Segoe UI";
+    font-size: 20px;
+}
+input[type=text],input[type=password]
+{
+    padding: 5px;
+}

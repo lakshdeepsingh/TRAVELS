@@ -1,0 +1,218 @@
+body
+{   
+    color: white;
+}
+#head1
+{
+    float: left;
+    font-family: "Open Sans","Segoe UI";
+    width: auto;  
+    font-weight: lighter;
+}
+#home
+{
+    float: left;
+    font-family: "Open Sans","Segoe UI";
+    width: auto;
+    font-weight: 300;
+    text-decoration: none;
+    font-size : 30px;
+    margin-left: 10px;
+}
+#links
+{
+    float: right;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#link1
+{
+    margin-left: 2px;
+    text-decoration: none;
+    
+}
+#link2
+{
+    margin-left: 50px;
+    text-decoration: none;
+    margin-right: 2px;
+}
+.left
+{
+    float: left;
+    margin-top: 160px;
+    position:absolute; left:43px; top:80px;  
+    transition: 0.6s ease;
+    width: auto;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+}
+.right
+{
+    float: right;
+    margin-top: 160px;
+    position:absolute; left:925px; top:80px;  
+    transition: 0.6s ease;
+    width: auto;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+}
+.right:hover
+{
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    transition-duration: 0.6s;
+    border-radius: 3px 0 0 3px;
+}
+.left:hover
+{
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    transition-duration: 0.6s;
+    border-radius: 3px 0 0 3px;
+}
+.mySlides
+{
+    position: relative;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+.myslideshow
+{
+    align-self: center;
+    margin-left: 30px;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+#tours
+{
+    float: left;
+    text-decoration: none;
+}
+#tourshead
+{
+    text-decoration: none;
+    border: 1px  black;
+    padding: 8px;
+    background-color: #0086f7;
+    font-family: "Open Sans","Segoe UI";
+    font-size: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+ul
+{
+    list-style-type: inherit;
+    color: black;
+    padding-left: 10px;
+    max-width: 280px;
+    //position: absolute;left:10px; top:475px;
+    
+}
+#tourplaces
+{
+    border: 1px solid white; 
+    text-decoration: none;
+    font-family: "Open Sans","Segoe UI";
+    font-size: 14px;
+    color: black;
+    /*border: 1px white;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background-color: #0086f7;*/
+}
+#tourplaces:hover
+{
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px;
+}
+#aboutus
+{
+    color: black;
+    border-left: 1px solid black;
+    position: absolute;left:282px; top:425px;
+    font-family: "Open Sans","Segoe UI";
+    font-size: 17px;
+    padding-left: 9px;
+    font-weight: lighter;
+    max-width: 650px;
+}
+h3
+{
+    font-weight: 500;
+    font-size: 20px;
+}
+#submi
+{
+    width: 100px;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    border-color: black;
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+}
+#submi:hover
+{
+    background-color: black;
+    color: green;
+    font-weight: 600;
+}
+#reset
+{
+    width: 180px;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    border-color: black;
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+}
+#reset:hover
+{
+    background-color: black;
+    color: green;
+    font-weight: 600;
+}
+strong{
+    font-weight: 500;
+}
+.contact
+{
+    color: black;
+    position: absolute; left: 5px; top: 780px;
+    background-color:#dbeafb;
+    border: 1px black;
+    border-radius: 10px; 
+    margin-left: 1px;
+    font-size: 18px;
+}

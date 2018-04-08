@@ -1,0 +1,42 @@
+#head1
+{
+    float: left;
+    font-family: "Open Sans","Segoe UI";
+    width: auto;  
+    font-weight: lighter;
+}
+#home
+{
+    float: left;
+    font-family: "Open Sans","Segoe UI";
+    width: auto;
+    font-weight: 300;
+    text-decoration: none;
+    font-size : 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#links
+{
+    float: right;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#link1
+{
+    margin-left: 400px;
+    text-decoration: none;    
+}
+#details_table
+{
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+tr,td,th
+{
+    padding: 15px;
+    border: solid 1px black;
+    border-collapse: collapse;
+    align-items: center;
+}
+

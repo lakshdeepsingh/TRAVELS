@@ -1,0 +1,12 @@
+SMAP
+view_005fdetails_jsp.java
+JSP
+*S JSP
+*F
++ 0 view_details.jsp
+view_details.jsp
+*L
+5,26:44
+31,5:70,3
+36,5:85
+*E

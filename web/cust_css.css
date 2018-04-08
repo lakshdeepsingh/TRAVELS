@@ -1,0 +1,92 @@
+#head1
+{
+    float: left;
+    font-family: "Open Sans","Segoe UI";
+    width: auto;  
+    font-weight: lighter;
+}
+#home
+{
+    float: left;
+    font-family: "Open Sans","Segoe UI";
+    width: auto;
+    font-weight: 300;
+    text-decoration: none;
+    font-size : 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#cust
+{
+    align-self: center;
+    font-family: "Open Sans","Segoe UI";
+    width: 68%;
+    font-size: 20px;
+    margin-left: 170px;  
+}
+input[type=text]
+{
+    padding: 8px;
+    width: 220px;
+    font-size: 16px;
+    text-decoration: none;
+}
+input[type=email]
+{
+    padding: 8px;
+    width: 220px;
+    font-size: 16px;
+    text-decoration: none;
+}
+#add
+{
+    width: 420px;
+}
+strong
+{
+    font-weight: 600;
+}
+#cont
+{
+    width: 150px;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    border-color: black;
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+}
+#cont:hover
+{
+    background-color: black;
+    color: green;
+    font-weight: 600;
+}
+#reset
+{
+    width: 150px;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    border-color: black;
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+}
+#reset:hover
+{
+    background-color: black;
+    color: green;
+    font-weight: 600;
+}

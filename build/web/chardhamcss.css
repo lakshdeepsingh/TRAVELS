@@ -1,0 +1,60 @@
+#aboutus
+{
+    color: black;
+    border-left: 1px solid black;
+    position: absolute;left:282px; top:425px;
+    font-family: "Open Sans","Segoe UI";
+    font-size: 17px;
+    padding-left: 9px;
+    font-weight: lighter;
+    max-width: 650px;
+}
+h3
+{
+    font-weight: 500;
+    font-size: 20px;
+}
+#submi
+{
+    width: 100px;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    border-color: black;
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+}
+#submi:hover
+{
+    background-color: black;
+    color: green;
+    font-weight: 600;
+}
+#reset
+{
+    width: 180px;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    border-color: black;
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+}
+#reset:hover
+{
+    background-color: black;
+    color: green;
+    font-weight: 600;
+}

@@ -1,0 +1,39 @@
+#head1
+{
+    float: left;
+    font-family: "Open Sans","Segoe UI";
+    width: auto;  
+    font-weight: lighter;
+}
+#home
+{
+    float: left;
+    font-family: "Open Sans","Segoe UI";
+    width: auto;
+    font-weight: 300;
+    text-decoration: none;
+    font-size : 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#links
+{
+    float: right;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#link1
+{
+    margin-left: 150px;
+    text-decoration: none;    
+}
+#link2
+{
+    margin-left: 70px;
+    text-decoration: none;
+}
+#link3
+{
+    text-decoration: none;
+    margin-left: 70px;
+}
